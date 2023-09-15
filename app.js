@@ -16,4 +16,4 @@ app.post('/upload', upload.single("file"), (req, res) => {
     res.render("display", {data: req.file.data});
 })
 
-app.listen(process.env.PORT || 3000);
+app.listen(3000);
